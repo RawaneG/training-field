@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoutingTrainingDetail } from './routing-training-detail';
+import { UserDetailPage } from './user-detail-page';
 
-describe('RoutingTrainingDetail', () => {
-  let component: RoutingTrainingDetail;
-  let fixture: ComponentFixture<RoutingTrainingDetail>;
+describe('UserDetailPage', () => {
+  let component: UserDetailPage;
+  let fixture: ComponentFixture<UserDetailPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RoutingTrainingDetail],
+      imports: [UserDetailPage],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RoutingTrainingDetail);
+    fixture = TestBed.createComponent(UserDetailPage);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

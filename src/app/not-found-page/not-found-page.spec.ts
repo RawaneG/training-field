@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoutingTraining } from './routing-training';
+import { NotFoundPage } from './not-found-page';
 
-describe('RoutingTraining', () => {
-  let component: RoutingTraining;
-  let fixture: ComponentFixture<RoutingTraining>;
+describe('NotFoundPage', () => {
+  let component: NotFoundPage;
+  let fixture: ComponentFixture<NotFoundPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RoutingTraining],
+      imports: [NotFoundPage],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RoutingTraining);
+    fixture = TestBed.createComponent(NotFoundPage);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
